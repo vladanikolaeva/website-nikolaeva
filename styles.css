@@ -1,10 +1,7 @@
 
-
 *{
     margin: 0;
     padding: 0;
-}
-
 body {
     font-family: 'Carlito', sans-serif;
     font-weight: 400;
@@ -53,7 +50,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    width: 107px;
+    width: 104px;
 }
 
 
@@ -61,7 +58,6 @@ header nav ul li a {
     color: chocolate;
     position: relative;
 }
-
 
 
 .hero {
@@ -124,17 +120,17 @@ header nav ul li a {
 table {
     font-family: 'Carlito', sans-serif;
     text-align: initial;
-    border-collapse: separate;
     border-spacing: 5px;
     background-image: url(https://happylove.top/uploads/posts/2023-05/1683527245_happylove-top-p-pesok-kartinka-dlya-detei-krasivo-30.jpg);
     color: rgb(54, 44, 19);
     border: 5px solid rgb(255, 206, 157);
     border-radius: 10px;
-    margin: auto;
+    margin: 0;
     width: 62%;
     margin-left: 22%;
     position: relative;
 }
+
 
 th {
     font: 20px;
@@ -163,7 +159,7 @@ td {
 header nav ul li.active::after {
     content: '';
     display: block;
-    width: 75px;
+    width: 85px;
     height: 6px;
     background: #cc0245;
     border-radius: 15px;
@@ -180,6 +176,9 @@ header nav ul li:hover {
     height: 350px;
     right: 215px;
     width: 650px; 
+    top: -70px;
+
+    
 }
 
 .inline label {
@@ -233,6 +232,17 @@ header nav ul li:hover {
 
 .picture h2 {
     color: rgb(107, 31, 31);
+}
+
+.btn {
+    box-shadow: 10px 5px 5px rgb(255, 108, 108);
+}
+
+.desc {
+    font-size: 17px;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -4%;   
 }
 
 
